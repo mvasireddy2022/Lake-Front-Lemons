@@ -34,12 +34,6 @@ p {
     width: 15%;
 }
 
-.nav {
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    font-size: 25px;
-}
-
 a {
     margin-left: 30px;
 }
@@ -124,7 +118,7 @@ a {
 .OurFabrics img {
     float: right;
     margin-right: 45px;
-    height: 410px;
+    height: 390px;
     width: 400px;
 }
 
