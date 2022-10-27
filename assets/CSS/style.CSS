@@ -57,7 +57,9 @@ a {
 }
 
 .CoreProducts {
+    margin-top: 20px;
     margin-left: 10px;
+    margin-right: 10px;
     height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
@@ -79,7 +81,9 @@ a {
 }
 
 .ProductsoftheWeek {
+    margin-top: 20px;
     margin-right: 10px;
+    margin-left: 10px;
     height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
@@ -101,7 +105,9 @@ a {
 }
 
 .OurFabrics {
+    margin-top: 20px;
     margin-left: 10px;
+    margin-right: 10px;
     height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
@@ -123,7 +129,9 @@ a {
 }
 
 .Quiz {
+    margin-top: 20px;
     margin-right: 10px;
+    margin-left: 10px;
     height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
@@ -142,4 +150,11 @@ a {
     margin-right: 33px;
     height: 350px;
     width: 350px;
+}
+
+.footer {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: burlywood;
+    text-align: center;
 }
