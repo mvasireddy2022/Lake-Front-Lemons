@@ -48,68 +48,98 @@ a {
     display: flex;
 }
 
-.Boxes a {
-    margin-top: 90px;
-    margin-left: 20px;
+.Boxes p {
+    float: left;
+    margin-top: 140px;
+    margin-left: 10px;
+    font-size: 25px;
     color: black;
 }
 
 .CoreProducts {
     margin-left: 10px;
-    height: 300px;
+    height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: bisque;
     color: black;
 }
 
-.CoreProducts h2 {
+.CoreProducts h1 {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 30px;
 }
 
+.CoreProducts img {
+    float: right;
+    margin-right: 37px;
+    height: 400px;
+    width: 300px;
+}
+
 .ProductsoftheWeek {
     margin-right: 10px;
-    height: 300px;
+    height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: burlywood;
     color: black;
 }
 
-.ProductsoftheWeek h2 {
+.ProductsoftheWeek h1 {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 30px;
 }
 
+.ProductsoftheWeek img {
+    float: center;
+    margin-left: 200px;
+    height: 375px;
+    width: 300px;
+}
+
 .OurFabrics {
     margin-left: 10px;
-    height: 300px;
+    height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: lightblue;
     color: black;
 }
 
-.OurFabrics h2 {
+.OurFabrics h1 {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 30px;
 }
 
+.OurFabrics img {
+    float: right;
+    margin-right: 45px;
+    height: 410px;
+    width: 400px;
+}
+
 .Quiz {
     margin-right: 10px;
-    height: 300px;
+    height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: lightgoldenrodyellow;
     color: black;
 }
 
-.Quiz h2 {
+.Quiz h1 {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 30px;
+}
+
+.Quiz img {
+    float: right;
+    margin-right: 33px;
+    height: 350px;
+    width: 350px;
 }
