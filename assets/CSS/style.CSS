@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 22px;
+}
+
+.header {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    height: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: lightblue;
+    color: black;
+    display: grid;
+    justify-content: center;
+}
+
+#logo {
+    margin-left: 10px;
+    width: 15%;
+}
+
+.nav {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 25px;
+}
+
+a {
+    margin-left: 30px;
+}
+
+.Boxes {
+    display: flex;
+}
+
+.Boxes a {
+    margin-top: 90px;
+    margin-left: 20px;
+    color: black;
+}
+
+.CoreProducts {
+    margin-left: 10px;
+    height: 300px;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: bisque;
+    color: black;
+}
+
+.CoreProducts h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.ProductsoftheWeek {
+    margin-right: 10px;
+    height: 300px;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: burlywood;
+    color: black;
+}
+
+.ProductsoftheWeek h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.OurFabrics {
+    margin-left: 10px;
+    height: 300px;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: lightblue;
+    color: black;
+}
+
+.OurFabrics h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.Quiz {
+    margin-right: 10px;
+    height: 300px;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.Quiz h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
