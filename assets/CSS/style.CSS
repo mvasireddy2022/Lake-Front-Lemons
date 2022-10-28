@@ -16,10 +16,6 @@ p {
 }
 
 .header {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 30px;
     height: 100%;
     text-align: center;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
@@ -40,20 +36,19 @@ a {
 
 .Boxes {
     display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 .Boxes p {
     float: left;
     margin-top: 140px;
-    margin-left: 10px;
     font-size: 25px;
     color: black;
 }
 
 .CoreProducts {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
     height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
@@ -67,16 +62,20 @@ a {
     font-size: 30px;
 }
 
+.CoreProducts div {
+    display: flex;
+    justify-content: center;
+    height: 150%;
+    width: 80%;
+}
+
 .CoreProducts img {
-    float: right;
-    margin-right: 37px;
-    height: 400px;
-    width: 300px;
+    height: 50%;
+    width: 50%;
 }
 
 .ProductsoftheWeek {
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-top: 10px;
     margin-left: 10px;
     height: 500px;
     width: 50%;
@@ -91,40 +90,46 @@ a {
     font-size: 30px;
 }
 
+.ProductsoftheWeek div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
 .ProductsoftheWeek img {
     float: center;
-    margin-left: 200px;
-    height: 375px;
-    width: 300px;
+    height: 75%;
+    width: 70%;
 }
 
 .OurFabrics {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
     height: 500px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: lightblue;
     color: black;
 }
-
 .OurFabrics h1 {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 30px;
 }
 
+.OurFabrics div {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+
 .OurFabrics img {
     float: right;
-    margin-right: 45px;
-    height: 390px;
-    width: 400px;
+    height: 100%;
+    width: 90%;
 }
 
 .Quiz {
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-top: 10px;
     margin-left: 10px;
     height: 500px;
     width: 50%;
@@ -139,16 +144,60 @@ a {
     font-size: 30px;
 }
 
+.Quiz div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
 .Quiz img {
     float: right;
     margin-right: 33px;
-    height: 350px;
-    width: 350px;
+    height: 70%;
+    width: 70%;
 }
 
 .footer {
-    margin-left: 10px;
-    margin-right: 10px;
     background-color: burlywood;
     text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+
+    .Boxes {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .CoreProducts {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .ProductsoftheWeek {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .OurFabrics {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Quiz {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        height: 100%;
+        width: 100%;
+    }
 }

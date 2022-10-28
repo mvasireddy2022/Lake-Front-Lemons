@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightblue;
+}
+
+a {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 22px;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: lightblue;
+    color: black;
+}
+
+.nav {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 25px;
+}
