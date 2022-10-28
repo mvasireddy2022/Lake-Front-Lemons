@@ -19,11 +19,350 @@ p {
     text-align: center;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     background-color: lightblue;
-    color: black;
+    color: purple;
 }
 
 .nav {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     font-size: 25px;
+}
+
+.Boxes {
+    display: flex;
+}
+
+.Everlux {
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Everlux h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Everlux h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Everlux li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Luxtreme {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Luxtreme h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Luxtreme h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Luxtreme li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Nulu {
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Nulu h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Nulu h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Nulu li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Nulux {
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Nulux h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Nulux h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Nulux li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Rulu {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Rulu h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Rulu h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Rulu li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Seamless {
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Seamless h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Seamless h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Seamless li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Swift {
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Swift h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Swift h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Swift li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Warpstreme {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Warpstreme h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Warpstreme h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
+
+.Warpstreme li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.Bonus {
+    margin-top: 20px;
+    width: 33.3333333%;
+    height: 365px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Bonus h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.Bonus li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: purple;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 700px) {
+
+    .Boxes {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        }
+
+    .Everlux {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Luxtreme {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Nulu {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Nulux {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Rulu {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Seamless {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Swift {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Warpstreme {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Bonus {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
 }
