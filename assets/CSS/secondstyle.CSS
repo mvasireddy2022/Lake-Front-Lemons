@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: bisque;
+}
+
+a {
+    color: darkred;
+}
+
+p {
+    color: black;
+    font-size: 22px;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: bisque;
+    color: brown;
+}
+
+nav a {
+    float: center;
+    line-height: 200%;
+    padding: 10px;
+}
+
+.image img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr {
+    border: 7px solid red;
+    border-radius: 5px;
+}
